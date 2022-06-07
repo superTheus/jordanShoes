@@ -1,0 +1,14 @@
+{
+  "name": "jordan_shoes",
+  "version": "1.0.0",
+  "description": "Store exemple for Jordan Shoes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Souza",
+  "license": "ISC",
+  "dependencies": {
+    "typed.js": "^2.0.12"
+  }
+}

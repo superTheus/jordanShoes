@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <title>Jordan Shoes</title>
+</head>
+
+<body>
+  <header>
+    <div class="titleOne">
+      Get $10.00 off shipping
+    </div>
+    <div class="titleTwo">
+      JordanShoes
+    </div>
+    <div class="banner">
+      <div></div>
+      <div>
+        <p>
+          Jordan's best store
+        </p>
+        <p id="typedText"></p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="emphasis">
+      <p>Emphasis</p>
+      <p>Free shipping and toast slipper is here, enjoy for a limited time.</p>
+    </section>
+    <section>
+      <div class="shoes">
+        <img src="./assets/img/air-jordan-1-mid-dutch-green-1-400.png" alt="Sapato cor Verde e Branco">
+      </div>
+      <div class="shoes">
+        <img src="./assets/img/air-jordan-1-high-zoom-cmft-tropical-twist-1-400.png"
+          alt="Sapato cor Azul claro e Branco">
+      </div>
+      <div class="shoes">
+        <img src="./assets/img/air-jordan-1-retro-high-court-purple-w-1-400.png"
+          alt="Sapato retro cor roxo claro e Branco">
+      </div>
+      <div class="shoes">
+        <img src="./assets/img/air-jordan-1-mid-light-smoke-grey-gs-1-1000.png" alt="Sapato Claro cor Cinza e Branco">
+      </div>
+      <div class="shoes">
+        <img src="./assets/img/air-jordan-1-mid-black-noble-red-w-1-1000.png" alt="Sapato Escuro lilas e preto">
+      </div>
+      <div class="shoes">
+        <img src="./assets/img/air-jordan-1-mid-bright-citrus-1-1000 1.png" alt="Sapato cor laranja e Branco">
+      </div>
+      <div class="shoes">
+        <img src="./assets/img/air-jordan-1-mid-grey-camo-1-1000 1.png" alt="Sapato cor Cinza e Branco">
+      </div>
+      <div class="shoes">
+        <img src="./assets/img/air-jordan-1-mid-carbon-fiber-1-1000 1.png" alt="Sapato cor Preto e Branco">
+      </div>
+    </section>
+  </main>
+  <footer>All rights reserved.</footer>
+</body>
+<script src="./node_modules/typed.js/lib/typed.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  (() => {
+    'use strict';
+
+    var typed = new Typed('#typedText', {
+      strings: ['The Jordan sneaker is the result of an old and strong partnership between Nike and the player Michael Jordan.'],
+      typeSpeed: 30,
+      showCursor: false,
+    });
+
+    const sr = ScrollReveal({
+      origin: 'top',
+      distance: '50px',
+      duration: 2000,
+      reset: true
+    });
+
+    ScrollReveal().reveal('.emphasis', { delay: 100 });
+    ScrollReveal().reveal('.shoes', { delay: 300 });
+  })()
+</script>
+
+</html>
